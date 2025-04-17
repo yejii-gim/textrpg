@@ -571,12 +571,12 @@ class Solution
             }
             else if (input == 2)
             {
-                ResultDungeon(player, items, inventory, BattleDungeon(player, 11, 1700, rand), "쉬움", orgGold, orgHealth);
+                ResultDungeon(player, items, inventory, BattleDungeon(player, 11, 1700, rand), "일반", orgGold, orgHealth);
 
             }
             else if (input == 3)
             {
-                ResultDungeon(player, items, inventory, BattleDungeon(player, 17, 2500, rand), "쉬움", orgGold, orgHealth);
+                ResultDungeon(player, items,운", orgGold, orgHealth);
             }
 
         }
