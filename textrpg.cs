@@ -527,17 +527,17 @@ class Solution
                 }
             }
         }
-        // 휴식 탭 UI 업데이트
-        static void UdateRestUI(Player player)
-        {
-            Console.Clear();
-            Console.WriteLine("휴식하기");
-            Console.WriteLine($"500G를 내면 체력을 회복할 수 있습니다. ( 보유 골드 : {player.gold} )\n");
-
-            Console.WriteLine("1. 휴식하기 \n0. 나가기\n");
-        }
-
     }
+    // 휴식 탭 UI 업데이트
+    static void UdateRestUI(Player player)
+    {
+        Console.Clear();
+        Console.WriteLine("휴식하기");
+        Console.WriteLine($"500G를 내면 체력을 회복할 수 있습니다. ( 보유 골드 : {player.gold} )\n");
+
+        Console.WriteLine("1. 휴식하기 \n0. 나가기\n");
+    }
+
     // 던전 탭 관리
     static void GoDungeon(Player player, List<Item> items, List<Item> inventory)
     {
