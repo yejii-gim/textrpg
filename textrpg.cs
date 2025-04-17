@@ -576,7 +576,7 @@ class Solution
             }
             else if (input == 3)
             {
-                ResultDungeon(player, items,운", orgGold, orgHealth);
+                ResultDungeon(player, items,inventory, BattleDungeon(player, 17, 2500, rand),"어려운", orgGold, orgHealth);
             }
 
         }
